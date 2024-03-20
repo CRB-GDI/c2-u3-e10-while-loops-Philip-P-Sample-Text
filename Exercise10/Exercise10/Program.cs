@@ -27,7 +27,7 @@ namespace Exercise10
                 //Parses the user input response.
                 numberResponse = int.Parse(Console.ReadLine());
 
-                //These while loops write the appropriate answer to the input value.
+                //These if statements write the appropriate answer to the input value.
                 if (numberResponse == 1)
                 {
                     Console.WriteLine();
